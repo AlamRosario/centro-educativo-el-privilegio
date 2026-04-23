@@ -38,10 +38,7 @@ export default function Footer() {
           {/* Brand */}
           <div className="lg:col-span-2">
             <div className="flex items-center gap-3 mb-4">
-              {/* PLACEHOLDER: reemplazar con <img src="/logo.png" alt="Logo" className="h-14 w-auto" /> */}
-              <div className="h-14 w-14 rounded-full bg-white/10 flex items-center justify-center font-bold text-lg">
-                CEP
-              </div>
+              <img src="/logo.png" alt="Centro Educativo El Privilegio" className="h-14 w-auto" />
               <div>
                 <p className="font-bold text-white leading-tight">Centro Educativo</p>
                 <p className="font-extrabold text-white text-lg leading-tight">El Privilegio</p>

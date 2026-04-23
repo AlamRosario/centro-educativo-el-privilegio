@@ -82,10 +82,9 @@ export default function Admissions() {
               </div>
             </div>
 
-            {/* PLACEHOLDER: reemplazar con imagen real del proceso de inscripción o de estudiantes */}
             <div className="relative rounded-2xl overflow-hidden">
               <img
-                src="https://placehold.co/600x200/C62828/ffffff?text=¡Inscríbete+ahora!"
+                src="/admision/requisitos.png"
                 alt="Inscripciones abiertas"
                 className="w-full"
               />

@@ -7,7 +7,7 @@ export default function Hero() {
       {/* Background image — PLACEHOLDER: reemplazar con imagen real de fachada del colegio */}
       <div className="absolute inset-0">
         <img
-          src="https://placehold.co/1920x1080/1B5E20/ffffff?text=Centro+Educativo+El+Privilegio"
+          src="/hero-fachada.jpg"
           alt="Centro Educativo El Privilegio"
           className="w-full h-full object-cover"
         />

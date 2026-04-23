@@ -14,8 +14,7 @@ const team = [
   {
     name: 'Licda. Buenaventura Rosario Aquino',
     role: 'Directora',
-    // PLACEHOLDER: reemplazar src con foto real, ej: '/equipo/directora.jpg'
-    img: 'https://placehold.co/200x200/1B5E20/ffffff?text=Directora',
+    img: '/equipo/directora.jpg',
   },
   {
     name: 'Claudia Rosario',
@@ -61,7 +60,7 @@ export default function About() {
           {/* PLACEHOLDER: reemplazar con imagen real del colegio o fundadores */}
           <div className="relative">
             <img
-              src="https://placehold.co/600x400/1B5E20/ffffff?text=Historia+del+Colegio"
+              src="/about/historia.jpg"
               alt="Historia del Centro Educativo El Privilegio"
               className="rounded-2xl shadow-xl w-full"
             />

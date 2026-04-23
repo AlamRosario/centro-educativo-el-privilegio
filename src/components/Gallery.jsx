@@ -3,19 +3,17 @@ import { X, ChevronLeft, ChevronRight } from 'lucide-react'
 
 const categories = ['Todas', 'Actividades', 'Graduaciones', 'Eventos Patrios', 'Vida Escolar']
 
-// PLACEHOLDER: reemplazar cada item con foto real del colegio
-// Estructura: { src: '/galeria/foto1.jpg', alt: 'Descripción', category: 'Categoría' }
 const photos = [
-  { src: 'https://placehold.co/600x400/1B5E20/ffffff?text=Actividad+Escolar', alt: 'Actividad escolar', category: 'Actividades' },
-  { src: 'https://placehold.co/600x400/1565C0/ffffff?text=Graduación+2024', alt: 'Graduación 2024', category: 'Graduaciones' },
-  { src: 'https://placehold.co/600x400/C62828/ffffff?text=Acto+Patrio', alt: 'Acto patrio', category: 'Eventos Patrios' },
-  { src: 'https://placehold.co/600x400/2E7D32/ffffff?text=Vida+Escolar', alt: 'Vida escolar', category: 'Vida Escolar' },
-  { src: 'https://placehold.co/600x400/145214/ffffff?text=Actividad+Cultural', alt: 'Actividad cultural', category: 'Actividades' },
-  { src: 'https://placehold.co/600x400/0D47A1/ffffff?text=Graduación+2023', alt: 'Graduación 2023', category: 'Graduaciones' },
-  { src: 'https://placehold.co/600x400/B71C1C/ffffff?text=Dia+de+la+Patria', alt: 'Día de la Patria', category: 'Eventos Patrios' },
-  { src: 'https://placehold.co/600x400/388E3C/ffffff?text=Recreo+Escolar', alt: 'Recreo escolar', category: 'Vida Escolar' },
-  { src: 'https://placehold.co/600x400/1976D2/ffffff?text=Acto+Escolar', alt: 'Acto escolar', category: 'Actividades' },
-  { src: 'https://placehold.co/600x400/4CAF50/ffffff?text=Salón+de+Clases', alt: 'Salón de clases', category: 'Vida Escolar' },
+  { src: '/galeria/galeria-graduacion.jpg', alt: 'Graduación de Primer Grado 2024-2025 - Ya Sé Leer', category: 'Graduaciones' },
+  { src: '/galeria/galeria-familia2025.jpg', alt: 'Actividad Familiar del Privilegio 2025', category: 'Actividades' },
+  { src: '/galeria/galeria-patrios.jpg', alt: 'Actos del 27 de Febrero - Día de la Independencia', category: 'Eventos Patrios' },
+  { src: '/galeria/galeria-finano.jpg', alt: 'Actividad de Fin de Año 2025', category: 'Actividades' },
+  { src: '/galeria/galeria-alimentacion.jpg', alt: '16 de Octubre - Día de la Alimentación', category: 'Vida Escolar' },
+  { src: '/galeria/galeria-culturas.jpg', alt: '12 de Octubre - Encuentro entre Culturas', category: 'Eventos Patrios' },
+  { src: '/galeria/galeria-maestros.jpg', alt: 'Actividad del Día del Maestro - 30 de Junio', category: 'Actividades' },
+  { src: '/galeria/galeria-familia-regalos.jpg', alt: 'Familias Premiadas en Dinámicas 2025', category: 'Actividades' },
+  { src: '/galeria/galeria-parvulo.jpg', alt: 'Actividades del Nivel Párvulo', category: 'Vida Escolar' },
+  { src: '/galeria/galeria-preprimario.jpg', alt: 'Presentaciones del Preprimario - Bailes Típicos', category: 'Eventos Patrios' },
 ]
 
 export default function Gallery() {

@@ -35,10 +35,7 @@ export default function Navbar() {
 
           {/* Logo */}
           <a href="#inicio" className="flex items-center gap-3 group" onClick={() => handleLink('#inicio')}>
-            {/* PLACEHOLDER: reemplazar con <img src="/logo.png" alt="Logo" className="h-14 w-auto" /> */}
-            <div className="h-14 w-14 rounded-full bg-[#1B5E20] flex items-center justify-center text-white font-bold text-lg shadow-md group-hover:scale-105 transition-transform">
-              CEP
-            </div>
+              <img src="/logo.png" alt="Centro Educativo El Privilegio" className="h-14 w-auto group-hover:scale-105 transition-transform" />
             <div className="hidden sm:block">
               <p className="font-bold text-[#1B5E20] text-sm leading-tight">Centro Educativo</p>
               <p className="font-extrabold text-[#1B5E20] text-base leading-tight">El Privilegio</p>

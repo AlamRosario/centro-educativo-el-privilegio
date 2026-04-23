@@ -27,6 +27,7 @@ const levels = [
       { label: 'Lenguaje', icon: '💬' },
       { label: 'Creativo', icon: '🎨' },
     ],
+    img: '/academicos/nivel-inicial.jpg',
   },
   {
     id: 'primero',
@@ -47,6 +48,7 @@ const levels = [
       'Pensamiento crítico',
     ],
     domains: [],
+    img: null,
   },
   {
     id: 'segundo',
@@ -67,6 +69,7 @@ const levels = [
       'Manejo de tecnologías',
     ],
     domains: [],
+    img: null,
   },
 ]
 
@@ -165,13 +168,13 @@ export default function AcademicLevels() {
               </div>
             )}
 
-            {/* Image placeholder */}
-            {/* PLACEHOLDER: reemplazar con foto real de salón de clases del nivel correspondiente */}
-            <img
-              src={`https://placehold.co/600x300/1B5E20/ffffff?text=${encodeURIComponent(level.label)}`}
-              alt={level.label}
-              className="w-full rounded-2xl shadow-sm"
-            />
+            {level.img && (
+              <img
+                src={level.img}
+                alt={level.label}
+                className="w-full rounded-2xl shadow-sm"
+              />
+            )}
           </div>
         </div>
 
